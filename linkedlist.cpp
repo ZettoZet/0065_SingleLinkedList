@@ -2,7 +2,7 @@
 #include <string.h>
 using namespace std;
 
-class Node 
+class Node
 {
 public:
     int noMhs;
@@ -12,6 +12,13 @@ public:
 class List
 {
     Node *START;
+
+public:
+    List()
+    {
+        START = NULL;
+    }
+
 };
 
 int main()
