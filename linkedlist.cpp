@@ -28,7 +28,7 @@ public:
         Node *nodeBaru = new Node;
         nodeBaru->noMhs = nim;
 
-        if (START == NULL || nim <= START->noMhs)
+        if (START == NULL || nim <=START->noMhs)
         {
             if ((START != NULL) && (nim == START->noMhs))
             {
@@ -93,6 +93,25 @@ public:
         }
         delete current;
         return true;
+    }
+
+    void traverse()
+    {
+        if (listEmpty())
+        {
+            cout << "\nList Kosong\n";
+        }
+        else
+        {
+            cout << "\nData didalam list adalah: \n";
+            Node *currentNode = START;
+            while (currentNode != NULL)
+            {
+                cout << currentNode->noMhs << endl;
+                currentNode = currentNode->next;
+            }
+            cout << endl;
+        }
     }
 };
 
