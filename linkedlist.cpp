@@ -117,6 +117,8 @@ public:
 
 int main()
 {
-    std::cout << "Hello, Linked List!" << std::endl;
-    return 0;
+    List mhs;
+    int nim;
+    char ch;
+    
 };
