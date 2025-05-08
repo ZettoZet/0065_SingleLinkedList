@@ -9,6 +9,10 @@ public:
     Node *next;
 };
 
+class List
+{
+    Node *START;
+};
 
 int main()
 {
