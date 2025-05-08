@@ -28,7 +28,7 @@ public:
         Node *nodeBaru = new Node;
         nodeBaru->noMhs = nim;
 
-        if (START == NULL || nim <=START->noMhs)
+        if (START == NULL || nim <= START->noMhs)
         {
             if ((START != NULL) && (nim == START->noMhs))
             {
@@ -120,5 +120,17 @@ int main()
     List mhs;
     int nim;
     char ch;
-    
+    while (1)
+    {
+        cout << "Menu" << endl;
+        cout << endl
+             << "1. Menambahkan data kedalam list" << endl;
+        cout << "2. Menghapus data dari list" << endl;
+        cout << "3. Menampilkan semua data didalam list" << endl;
+        cout << "4. Mencari data dalam list" << endl;
+        cout << "5. Keluar" << endl;
+
+        cout << "Masukkan pilihan (1-5): " << endl;
+        
+    }
 };
