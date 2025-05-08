@@ -198,6 +198,9 @@ int main()
         {
             break;
         }
+        default:
+            cout << "\nPilihan tidak valid" << endl;
+            break;
         }
     } while (ch != '5');
 };
