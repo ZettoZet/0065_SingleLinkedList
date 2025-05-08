@@ -120,7 +120,7 @@ int main()
     List mhs;
     int nim;
     char ch;
-    while (1)
+    do
     {
         cout << "Menu" << endl;
         cout << endl
@@ -194,6 +194,10 @@ int main()
             }
             break;
         }
-
-    }
+        case '5':
+        {
+            break;
+        }
+        }
+    } while (ch != '5');
 };
